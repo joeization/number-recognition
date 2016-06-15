@@ -9,8 +9,8 @@ def sigmoid(z):
     return ((z/(abs(z)+1))+1)/2
     #return ((1/(math.exp(-z)+1))+1)/2
 
-wl = -0.5
-rl = 0.5
+wl = -1
+rl = 1
 
 mid = 25
 

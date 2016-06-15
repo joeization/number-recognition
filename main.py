@@ -32,8 +32,11 @@ cnt = 1
 for data in train:
     #print cnt
     res = umikaze.watch(data.form)
+    '''
     if res != data.ans:
         umikaze.back(data.ans, data.form)
+    '''
+    umikaze.back(data.ans, data.form)
     cnt += 1
 
 print 'done.'
